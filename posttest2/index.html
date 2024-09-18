@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posttest2</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="thank-you-section">
+            <h1>Terima Kasih Sudah Belanja!</h1>
+            <p>pesanan kamu akan diproses dalam waktu 24 jam pada hari kerja. Kami akan memberi tahu Anda melalui email setelah pesanan Anda dikirimkan.</p>
+            <div class="billing-address">
+                <h2>Alamat Tagihan</h2><br>
+                <p><strong>Nama Pelayan</strong><br>Tengku Nabila</p>
+                <p><strong>Nama</strong><br>Dyah Ayu Nurshella Ramhan</p>
+                <p><strong>Alamat</strong><br> Jalan Sultan Alimudin, Sambutan</p>
+                <p><strong>Telepon</strong><br> +6282292617552</p>
+                <p><strong>Email</strong><br> shelladyahayu@gmail.com</p>
+                <button class="track-order-btn">Coba lacak Pesanan</button>
+            </div>
+        </div>
+        
+        <div class="order-summary-section">
+            <h2>Ringkasan Pesanan</h2>
+            <div class="order-info">
+                <p><strong>Tanggal</strong><br> <input type="date" value="2024-09-18"></p>
+                <p><strong>Waktu</strong><br> <input type="time" value="13:00"></p>
+                <p><strong>No Pemesanan</strong><br>2309106092</p>
+            </div>
+            
+            <div class="product">
+                <div class="product-details">
+                    <img src="nasi-goreng.jpeg" alt="gambar nasi goreng">
+                    <div class="details-text">
+                        <p><b>Nasi Goreng Spesial</b><br> 
+                            <small>Porsi: Medium</small><br>
+                            <small>Jumlah: 1x</small>
+                        </p>
+                    </div>
+                    <div class="price">
+                        <p>Rp25.000</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product">
+                <div class="product-details">
+                    <img src="es-teh-manis.jpeg" alt="gambar es teh">
+                    <div class="details-text">
+                        <p><b>Es Teh Manis</b><br> 
+                            <small>Porsi: Large</small><br>
+                            <small>Jumlah: 1x</small>
+                        </p>
+                    </div>
+                    <div class="price">
+                        <p>Rp5.000</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="order-total">
+                <p>Total Pesanan:<strong> Rp.30.000</strong></p>
+                <p>Pajak: <strong>Rp.2.000</strong></p>
+                <p>Total Tagihan:<strong>Rp. 32.000</strong></p><br>
+            </div>
+
+            <div class="payment-methods">
+                <h3>Metode Pembayaran</h3><br>
+                <p>
+                    <input type="radio" name="payment" value="bca"> Bank BCA
+                    <input type="radio" name="payment" value="bri"> Bank BRI
+                    <input type="radio" name="payment" value="ovo"> OVO
+                    <input type="radio" name="payment" value="gopay"> GoPay
+                </p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
